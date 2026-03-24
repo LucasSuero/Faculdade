@@ -1,0 +1,39 @@
+body{
+    background-color: lightblue;
+}
+*{
+    margin: 10px;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+hr{
+    border: none; 
+    height: 5px; 
+    width: 50%;  
+    background-color: #333;
+    margin: 20px auto; 
+}
+h1{
+    color: blue;
+}
+
+#principais{
+    padding-left: 200px;
+}
+
+.botao{
+    background-color: greenyellow;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+}
+
+.botao a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
