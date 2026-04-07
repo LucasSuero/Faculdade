@@ -1,0 +1,136 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.header{
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu{
+    background-color: #444;
+    text-align: center;
+}
+
+.menu a{
+    display: inline-block;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    border-bottom: 1px solid #666;
+}
+
+.menu a:hover{
+    background-color: #555;
+}
+
+.main{
+    padding: 20px;
+}
+
+.section{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.card{
+    display: inline-block;
+    background: #eee;
+    padding: 15px;
+    width: 445px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #eee;
+    vertical-align: top;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+.sectionp{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.bla{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.produtos{
+    display: flex;
+    gap: 10px;
+    background: #eee;
+    padding: 15px;
+    width: 445px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #eee;
+    vertical-align: top;
+}
+
+.preco{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100px;
+    color: rgb(28, 153, 28);
+    text-align: center;
+}
+
+.botao{
+    text-align: center;
+    background-color: greenyellow;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+.botao:hover{
+    transform: scale(1.1);
+    background-color: rgb(255, 71, 71);
+}
+
+.produtos img{
+    height: 250px;
+    width: 250px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th{
+    background-color: #ddd;
+}
+
+.footer{
+    display: block;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer p{
+    margin: 5px ;
+}
