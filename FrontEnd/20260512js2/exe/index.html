@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Basico 2</title>
+</head>
+<body>
+    <h1>JS BASICO II</h1>
+    <p>link JS externo</p>
+    <img src="../img/foto.jpg" alt="" width="270" height="100">
+    <br><br>
+    <div id="exe01">
+        <h1>Exe 01 - Calculadora</h1>
+        <input id="num1" type="number" name="num1" placeholder="Digite um número"><br><br>
+        <input id="num2" type="number" name="num2" placeholder="Digite outro numero"><br><br>
+        <button onclick="soma()">Soma</button>
+        <button onclick="subtracao()">Subtração</button>
+        <button onclick="multiplicacao()">Multiplicação</button>
+        <button onclick="divisao()">Divisão</button>
+        <br><br>
+        <span>Resultado</span>
+        <input id="result" type="number" name="result">
+    </div>
+    <script src="../js/script1.js"></script>
+
+    <div id="exe02">
+        <h1>Exe 02 - Calculo de medias</h1>
+        <span>Digite os numeros separados por / (barra): </span><br><br>
+        <input id="valores" type="text" name="valores">
+        <button onclick="calcularMedia()">Calcula media</button>
+        <p id="media">...</p> 
+    </div>
+    <script src="../js/script2.js"></script>
+
+    <div id="exe3">
+        <h1>Exe 03 - Verifica o maior</h1>
+        <input id="n1" type="number" placeholder="Digite o primeiro num">
+        <input id="n2" type="number" placeholder="Digite o segundo num">
+        <input id="n3" type="number" placeholder="Digite o terceiro num">
+        <br><br>
+        <button onclick="verifica()">Verificar</button>
+    </div>
+
+</body>
+</html>
